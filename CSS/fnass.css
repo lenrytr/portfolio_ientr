@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* CSS Document */
+/* CSS Document */ /* Reset CSS*/
+*{ margin:0; padding:0;}
+
+html{scroll-behavior:smooth;} 
+.logo img{
+	width:70px;
+}
+.menu {display: flex;
+	justify-content: flex-end;}
+.menu a {
+	margin:0 22px;
+	color:rgba(40,22,3,1.00);
+	text-decoration: none;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size:18px;
+}
+.menu a:hover {
+	text-decoration: underline;
+	}
+.dropdown-content {
+ 	display: none;
+ 	position: absolute;
+ 	background-color:rgba(219,219,219,0.80);
+ 	min-width: 140px;
+ 	padding: 10px 0px 10px 0px;
+	margin-right:100px;
+ 	z-index: 1;
+	text-align:left;	
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header{
+	width:100%;
+	position:absolute;
+	z-index:2000;
+	position: fixed;
+}
+
+
+/*home*/
+.banner {
+	width:100%;
+	height:100vh;
+}
+.banner .banner-img img{
+	weight: 600px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.box-content{
+	height:200px;
+	position:absolute;
+	background:red;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.banner-content .content {
+	color:white;
+	font-size: 15px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.banner-content .banner-headtitle{
+	color:white;
+	position:absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+/*about*/
+#about .banner-about {background-image: url(../IMG/DSCF0474.jpg);
+	background-position:55% 55%;
+	background-size:215%;
+	width:100%;
+	height:100vh;
+	position: relative;
+}
+.banner-about {
+	width:100%;
+	height:100vh;
+}
+
+.about-content .about-ct {
+	padding:50px;
+	background-image: url("../IMG/sj-objio-XFWiZTa2Ub0-unsplash.jpg");
+	background-size: cover;
+	color:red;
+	font-size: 14px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align:left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.about-content .about-ct h1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size:50px;
+	font-weight:500;}
+.myself-img img{
+	height:150px;
+	position: absolute;
+	top: 25%;
+	left: 71%;
+	text-align:left;
+	}
+
+/*work*/
+.graphic {background:rgba(237,234,230,1.00);}
+.graphic {
+	width:100%;
+	height:100vh;}
+.graphic .box-gr{box-sizing:border-box;
+	margin:35px 40px 10px 0px;
+	overflow:hidden;
+	height:470px;
+	width:420px;
+	position:relative;
+}
+.graphic .box-gr img{
+	width:100%;
+}
+.graphic .box-gr .logo-nhan {
+	height:520px;
+	width:670px;
+	padding-right:170px;
+	background-position: center;
+}
+
+.graphic .content-gr{height:100%;
+	width:420px;
+	position: absolute;
+	top:0;
+	left:0;
+	transition-duration: 0.2s;
+	visibility: hidden;
+	background:rgba(244,180,80,1.00);
+	color:white;
+}
+.content-gr h1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	font-size:40px;
+	margin:140px 15px 5px;
+	color:white;
+}
+.content-gr p{
+	color:white;
+	margin:10px 15px 5px;
+	font-size:20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.box-gr:hover .content-gr{visibility:visible;}
+.graphic .graphic-h1{
+	margin:200px 0px 0px 20px;
+	color:rgba(40,22,3,1.00);
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	font-size:66px;}
+
+/*graphic-2*/
+.graphic-2 {background:rgba(237,234,230,1.00);}
+.graphic-2 {
+	width:100%;
+	height:100vh;}
+.graphic-2 .box-gr-2{box-sizing:border-box;
+	margin:120px 40px 10px 0px;
+	overflow:hidden;
+	height:600px;
+	width:1000px;
+	position:relative;
+}
+.graphic-2 .box-gr-2 img{
+	width:100%;
+}
+.graphic-2 .content-gr{height:100%;
+	width:1000px;
+	position: absolute;
+	top:0;
+	left:0;
+	transition-duration: 0.2s;
+	visibility: hidden;
+	background:rgba(244,180,80,1.00);
+}
+.box-gr-2 .content-gr h1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	font-size:40px;
+	margin:400px 15px 5px;
+	color:white;
+}
+.box-gr-2 .content-gr p{
+	color:white;
+	margin:10px 15px 10px 20px;
+	font-size:20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.box-gr-2:hover .content-gr{visibility:visible;}
+.logo-mayne {
+	width:550px;
+	height:520px;
+}
+
+/*photography*/
+.photograph-container{
+	width:100%;
+	height:100vh;
+	}
+.photograph-container .photo-1{
+	background-image: url("../IMG/8 (2nd).jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: 110%;
+	background-position:center;
+}
+.photograph-container .photo-h1{
+	margin:770px 0px 0px 20px;
+	align-items: flex-end;
+	color:white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+	font-size:25px;
+	}
+.photograph-container a{text-decoration: none;}
+.photograph-container .photo-2{
+	background-image: url("../IMG/Saigon.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: 100%;
+	background-position:center;}
+.photograph-container .photo-3{
+	background-image: url("../IMG/mel.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: 100%;
+	background-position:center;}
+.photograph-container .photo-4{
+	background-image: url("../IMG/sea.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: 100%;
+	background-position:center;}
+
+/*retouching*/
+.retouch-container{
+	width:100%;
+	height:100vh;
+	}
+.retouch-container .re-1{
+	background-image: url("../IMG/retouch.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: 110%;
+	background-position:center;
+}
+.retouch-container .re-h1{
+	margin:770px 0px 0px 20px;
+	color:white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+	font-size:25px;
+	}
+.retouch-container a{text-decoration: none;}
+/*contact*/
+
+.contact-content a{
+	color:rgba(40,22,3,1.00);
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+}
+
+.banner-contact {
+	width:100%;
+	height:100vh;
+	position: relative;
+}
+
+.contact-content .contact-ct {
+	text-decoration: none;
+	color:red;
+	font-size: 20px;
+	position:absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+	text-align:center;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+}

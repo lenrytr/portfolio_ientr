@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+.row{ display:flex;
+	flex-wrap:wrap;} 
+.container{
+		width:100%;
+		padding:10px 20px;
+		margin:0 auto;} 
+.text-right {text-align: right;}
+.section-2 .box-2 .col-12 {padding-left:20px;}
+.align-center {align-self: center;}
+.bg-light {background:rgba(237,234,230,1.00);}
+.bg-dark {
+	background:rgba(181,196,186,1.00);
+	height:100vh;
+	width:100%;}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 74.97%;}
+.col-10{width: 83.3%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+.padding-4 {padding: 4px;}
+.meta {padding:20px;}
+.my {margin:0 20px;}
+.transition {transition: width 2s;}
+.box-gr-2{
+	height:500px;
+	width:900px;
+}
